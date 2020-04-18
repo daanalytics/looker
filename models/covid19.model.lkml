@@ -1,4 +1,5 @@
 connection: "snowflake_covid19"
+label: "7) COVID19 - Starschema"
 
 # include all the views
 include: "/views/**/*.view"
