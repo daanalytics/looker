@@ -15,7 +15,7 @@ view: who_situation_reports {
 
   dimension: country_region {
     type: string
-    sql: ${TABLE}."COUNTRY_REGION" ;;
+    sql: UPPER(${country}) || ' ' || ${TABLE}."COUNTRY_REGION" ;;
   }
 
   dimension_group: date {
